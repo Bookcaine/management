@@ -5,6 +5,7 @@
     pageEncoding="UTF-8"%>
 
 <%
+System.out.print("test");
 String q = request.getParameter("q");
 
 	String query = "";
