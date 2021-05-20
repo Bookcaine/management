@@ -5,7 +5,6 @@
     pageEncoding="UTF-8"%>
 
 <%
-System.out.print("test");
 String q = request.getParameter("q");
 
 	String query = "";
@@ -31,7 +30,7 @@ String q = request.getParameter("q");
 <body>
     <header id="header">
         <div class="float-content">
-            <h1 class="logo"><a href="index.jsp"><div class="logo-1">책에 중독되는 순간</div> Bookcaine</a></h1>
+            <h1 class="logo"><a href="index.jsp"><div class="logo-1">책에 중독되는 시점</div> Bookcaine</a></h1>
             <section>
                 <h1 class="d-none">헤더</h1>
                 <nav id="user">
@@ -55,12 +54,9 @@ String q = request.getParameter("q");
                     <ul>
                         <li class="home"><a href="#">홈</a></li>
                         <li><a href="">도전방</a></li>
-<<<<<<< HEAD
                         <li><a href="profile/profile.jsp">프로필</a></li>
                         <li><a href="profile/profile.jsp">충돌 확인~~</a></li>
-=======
                         <li><a href="profile/profile.jsp">프로필(확인확인)</a></li>
->>>>>>> branch 'master' of https://github.com/Bookcaine/management.git
                     </ul>
                 </nav>
             </section>
